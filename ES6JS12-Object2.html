@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+    <p id="amb">...</p>
+    <script>
+        //create object
+        var person={
+            fname : "Hari",
+            mname : "Hara",
+            lname : "M",
+            age : 45,
+            address : "Hyderabad",
+            item : "Laptop",
+            myfunction : function(){
+                return "Firstname:"+this.fname+"<br>age:"+this.age
+            }
+        }
+        document.getElementById("amb").innerHTML=person.myfunction();
+    </script>
+</body>
+</html>
